@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,97 @@
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Movies catalog</h1>
+            <div class="col-4 gx-3 gy-5">
+                <div class="mb-3 mt-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">qaysi</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">nechta...?</label>
+                    <input type="number" class="form-control" id="exampleFormControlTextarea1">
+                </div>
+
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>All</option>
+                    <option value="1">qasoskorlar</option>
+                    <option value="2">qora tun</option>
+                    <option value="3">songi qasos</option>
+                </select>
+                <!-- <br> -->
+                <select class="form-select mt-3" aria-label="Default select example">
+                    <option selected>Rating (high to low)</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <!-- <br> -->
+                <div class="d-grid gap-2 mt-3">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </div>
+
+                <h2 class="text-center mt-3">Bookmarked movies</h2>
+
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">A list item
+                        <button type="button" class="btn btn-danger">Danger</button>
+                    </li>
+                    <li class="list-group-item">A list item
+                        <button type="button" class="btn btn-warning">Warning</button>
+                    </li>
+                    <li class="list-group-item">A list item
+                        <button type="button" class="btn btn-success">Success</button>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="col-8">
+                <h2 class=" mt-4">Search results:39</h2>
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+
+                <div class="card mt-3" style="width: 18rem;">
+                    <img src="https://i.picsum.photos/id/1001/200/200.jpg?hmac=J4yq_Q2Zy5CCcNlGMUf26bes2ksQBi_MzvdgW7rAcio"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Avenger:infinity war</h5>
+                        <p class="card-text"> bulk of the card's content.</p>
+                        <button type="button" class="btn btn-outline-info">Info</button>
+                        <button type="button" class="btn btn-outline-dark">Dark</button>
+                        <button type="button" class="btn btn-outline-danger">Light</button>
+                    </div>
+                </div>
+
+
+                <div class="card mt-3" style="width: 18rem; ">
+                    <img src="https://i.picsum.photos/id/1001/200/200.jpg?hmac=J4yq_Q2Zy5CCcNlGMUf26bes2ksQBi_MzvdgW7rAcio"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Avenger:infinity war</h5>
+                        <p class="card-text"> bulk of the card's content.</p>
+                        <button type="button" class="btn btn-outline-info">Info</button>
+                        <button type="button" class="btn btn-outline-dark">Dark</button>
+                        <button type="button" class="btn btn-outline-danger">Light</button>
+                    </div>
+                </div>
+
+                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                    <div class="btn-group me-2" role="group" aria-label="First group">
+                        <button type="button" class="btn btn-primary">1</button>
+                        <button type="button" class="btn btn-primary">2</button>
+                        <button type="button" class="btn btn-primary">3</button>
+                        <button type="button" class="btn btn-primary">4</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Html code here -->
 </body>
 <script src="./js/popper.min.js"></script>
@@ -18,6 +108,7 @@
 <script src="./js/main.js"></script>
 <script>
 // write js code here
-    
+
 </script>
+
 </html>
